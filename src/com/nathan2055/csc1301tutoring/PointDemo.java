@@ -1,7 +1,8 @@
 package com.nathan2055.csc1301tutoring;
 
 import java.awt.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class PointDemo {
     public static void main(String[] args) {
