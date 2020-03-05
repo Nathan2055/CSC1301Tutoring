@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd6836bf-fec8-4aa7-8300-67a11a2b4777" name="Default Changelist" comment="Create Appointment classes and demo">
-      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/AppointmentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Daily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Monthly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Onetime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/AppointmentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/AppointmentDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583432430960</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create Appointment classes and demo">
+      <created>1583434424969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583434424969</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add custom appointment addition functionality and an interactive interface">
+      <created>1583436710489</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583436710489</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,13 +193,14 @@
     <MESSAGE value="Remove workspace.xml from repository" />
     <MESSAGE value="Add Array and ArrayList demos" />
     <MESSAGE value="Create Appointment classes and demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Appointment classes and demo" />
+    <MESSAGE value="Add custom appointment addition functionality and an interactive interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom appointment addition functionality and an interactive interface" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1583434406584">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1583436709649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583434406584" />
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583436709649" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1582832630423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -217,22 +229,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="190" key="GridCell.Tab.-1.right/0.0.1366.728@0.0.1366.728" timestamp="1580408139984" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583434406619">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583437085039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583434406619">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583437085039" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583437085039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583434406619">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583437085039" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583437085039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583434406619">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583437085039" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583437085039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583437085039" />
     <state width="1294" height="195" key="GridCell.Tab.1.bottom" timestamp="1580408129266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,10 +261,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580408129266" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1583432437729">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1583434620479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583432437729" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583434620479" />
     <state x="886" y="568" width="1310" height="256" key="dock-window-1" timestamp="1580408333299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -24,10 +24,11 @@ public class AppointmentDemo {
         newDay = input.nextInt();
 
         // Ask for appointment type
-        do {
-            System.out.print("What type of appointment is this? (onetime, monthly, daily) ");
+        newType = "";
+        while (!(newType.equals("onetime") || newType.equals("monthly") || newType.equals("daily"))) {
+            System.out.print("What type of appointment is this (onetime, monthly, daily)? ");
             newType = input.next();
-        } while (!(newType.equals("onetime") || newType.equals("monthly") || newType.equals("daily")));
+        }
 
         // Ask for appointment description
         System.out.print("What description should this appointment have? ");
@@ -97,7 +98,8 @@ public class AppointmentDemo {
 
         // Interactive interface to calendar
         String command = "";
-        do {
+        while (!command.equals("quit")) {
+            command = "";
             System.out.print("Please enter the command you would like to run (add, viewdate, quit): ");
             command = input.next();
             if (command.equals("add")) {
@@ -105,6 +107,6 @@ public class AppointmentDemo {
             } else if (command.equals("viewdate")) {
                 checkOccurrence();
             }
-        } while (!command.equals("quit"));
+        }
     }
 }
