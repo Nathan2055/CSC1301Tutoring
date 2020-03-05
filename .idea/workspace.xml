@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd6836bf-fec8-4aa7-8300-67a11a2b4777" name="Default Changelist" comment="">
+    <list default="true" id="fd6836bf-fec8-4aa7-8300-67a11a2b4777" name="Default Changelist" comment="Create Appointment classes and demo">
+      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/AppointmentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Daily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Monthly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/Appointment/Onetime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/PointDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nathan2055/csc1301tutoring/PointDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1X7qNAwfgUYEH0rnlzfO5QEUfeO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,9 +50,22 @@
       <recent name="com.nathan2055.csc1301tutoring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PointDemo">
-    <configuration name="NestedFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nathan2055.csc1301tutoring.NestedFor" />
+  <component name="RunManager" selected="Application.AppointmentDemo">
+    <configuration name="AppointmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nathan2055.csc1301tutoring.Appointment.AppointmentDemo" />
+      <module name="CSC1301Tutoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nathan2055.csc1301tutoring.Appointment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nathan2055.csc1301tutoring.ArrayDemo" />
       <module name="CSC1301Tutoring" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedForSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nathan2055.csc1301tutoring.NestedForSpaces" />
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nathan2055.csc1301tutoring.ArrayListDemo" />
       <module name="CSC1301Tutoring" />
       <extension name="coverage">
         <pattern>
@@ -99,10 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppointmentDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.PointDemo" />
         <item itemvalue="Application.Stairs" />
-        <item itemvalue="Application.NestedForSpaces" />
-        <item itemvalue="Application.NestedFor" />
       </list>
     </recent_temporary>
   </component>
@@ -131,19 +151,44 @@
       <option name="project" value="LOCAL" />
       <updated>1582833569655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cleanup imports in PointDemo">
+      <created>1582833742095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582833742095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove workspace.xml from repository">
+      <created>1583432405052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583432405052</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Array and ArrayList demos">
+      <created>1583432430960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583432430960</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add vcs.xml file" />
     <MESSAGE value="Add workspace.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add workspace.xml file" />
+    <MESSAGE value="Cleanup imports in PointDemo" />
+    <MESSAGE value="Remove workspace.xml from repository" />
+    <MESSAGE value="Add Array and ArrayList demos" />
+    <MESSAGE value="Create Appointment classes and demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Appointment classes and demo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1582833717505">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1583434406584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582833717505" />
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583434406584" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1582832630423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -172,22 +217,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="190" key="GridCell.Tab.-1.right/0.0.1366.728@0.0.1366.728" timestamp="1580408139984" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1582829146989">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583434406619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582829146989" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1582829146989">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583434406619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582829146989" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1582829146989">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583434406619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582829146989" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1582829146989">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583434406619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582829146989" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583434406619" />
     <state width="1294" height="195" key="GridCell.Tab.1.bottom" timestamp="1580408129266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -204,10 +249,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1294" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580408129266" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1582832675842">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1583432437729">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582832675842" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583432437729" />
     <state x="886" y="568" width="1310" height="256" key="dock-window-1" timestamp="1580408333299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
