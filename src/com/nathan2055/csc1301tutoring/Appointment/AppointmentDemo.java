@@ -76,7 +76,7 @@ public class AppointmentDemo {
 
         // Compare all of the saved appointments to the given date and store the descriptions
         ArrayList<String> appointmentInfo = new ArrayList<>();
-        for (int i = 1; i <= calendar.size(); i++) {
+        for (int i = 0; i < calendar.size(); i++) {
             Appointment toCheck = calendar.get(i);
             if (toCheck.occursOn(testYear, testMonth, testDay)) {
                 appointmentInfo.add(toCheck.getDescription());
